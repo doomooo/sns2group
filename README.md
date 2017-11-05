@@ -1,3 +1,7 @@
+石墨相关文档：
+思路说明：https://shimo.im/docs/XC4lffh8xE0eAN2Q
+代码简介：https://shimo.im/docs/5ZkGSZZDgdE3qVYm
+
 目的：找到关系网中的小的、联系紧密的“圈子”
 
 基本假设：
