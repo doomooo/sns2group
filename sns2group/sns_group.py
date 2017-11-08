@@ -12,8 +12,8 @@ from functools import reduce
 with open("p2p_date.json",'r',encoding='utf-8') as json_file:
          p2p_date=json.load(json_file)
          
-with open("strang_group.json",'r',encoding='utf-8') as json_file:
-         strang_group=json.load(json_file)
+with open("strong_group.json",'r',encoding='utf-8') as json_file:
+         strong_group=json.load(json_file)
 
 with open("weak_group.json",'r',encoding='utf-8') as json_file:
          weak_group=json.load(json_file)
@@ -40,7 +40,7 @@ for i in range(len(p2p_date)):
     good_relation+=[[temp_relation[len(p2p_date)-x-1][0] for x in range(50)]]
 
 #获取圈子的亲密度阈值
-temp=[p2p_relation[0][i] for x in range(len(p2p_date))]
+temp=[p2p_relation[0][x] for x in range(len(p2p_date))]
 temp.sort()
 group_relation_min=temp[80]
 
